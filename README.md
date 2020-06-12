@@ -4,7 +4,8 @@ For example, the following command produces the arch logo saying a random fortun
 ```
 $ archsay="fortune | cowsay -n -f arch | lolcat -h $(( rand48(seed) )) -v $(( rand48(seed) ))"
 ```
-See `archsay.png` for an example of the output.
+Example output:
+![Example archsay output](archsay.png)
 
 The file `arch.cow` should be in `/usr/share/cowsay/cows` for all users to have access to it.
 
