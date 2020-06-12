@@ -6,10 +6,10 @@ $ archsay="fortune | cowsay -n -f arch | lolcat -h $(( rand48(seed) )) -v $(( ra
 ```
 Example output:
 
-![Example archsay output](archsay.png)
+![Example archsay output](screenshots/archsay.png)
 
 The file `arch.cow` should be in `/usr/share/cowsay/cows` for all users to have access to it.
 
 In addition, a tapir ASCII art is provided in the file `tapir.cow`. Example:
 
-![Example tapir ascii](tapirsay.png)
+![Example tapir ascii](screenshots/tapirsay.png)
